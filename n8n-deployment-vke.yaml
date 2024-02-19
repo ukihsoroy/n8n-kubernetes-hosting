@@ -164,7 +164,7 @@ metadata:
     subresource: status
     time: "2024-02-01T10:18:00Z"
   name: n8n
-  namespace: knowledge-domain
+  namespace: solution-tools
   resourceVersion: "51565279"
   uid: e3e7e239-0a36-46fc-82e3-7f0433127f3e
 spec:
@@ -209,7 +209,7 @@ spec:
           valueFrom:
             secretKeyRef:
               key: POSTGRES_PASSWORD
-              name: n8n-postgres-secret
+              name: n8n-secret
         image: n8nio/n8n
         imagePullPolicy: Always
         name: n8n
